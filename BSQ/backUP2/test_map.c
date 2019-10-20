@@ -36,7 +36,7 @@ int		ft_test_num_cul(char **map, int num_line)
 
 	len = ft_strlen(map[0]);
 	i = 1;
-	while (i < numline)
+	while (i < num_line)
 	{
 		if (len != ft_strlen(map[i]))
 			return (1);
